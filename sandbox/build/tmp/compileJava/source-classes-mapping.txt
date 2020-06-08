@@ -1,2 +1,6 @@
-MyFirstProgram.java
- MyFirstProgram
+pl/stqa/pft/sandbox/Square.java
+ pl.stqa.pft.sandbox.Square
+pl/stqa/pft/sandbox/Rectangle.java
+ pl.stqa.pft.sandbox.Rectangle
+pl/stqa/pft/sandbox/MyFirstProgram.java
+ pl.stqa.pft.sandbox.MyFirstProgram
