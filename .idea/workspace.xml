@@ -69,7 +69,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -79,7 +79,7 @@
       <recent name="D:\Rozwój\AKTUALNE\Testy automatyczne\Repozytorium\java_najnowszy3_pft\sandbox\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyFirstProgram">
+  <component name="RunManager" selected="TestNG.SquareTests">
     <configuration name="MyFirstProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.stqa.pft.sandbox.MyFirstProgram" />
       <module name="sandbox.main" />
@@ -125,8 +125,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyFirstProgram" />
         <item itemvalue="TestNG.SquareTests" />
+        <item itemvalue="Application.MyFirstProgram" />
         <item itemvalue="Gradle.SquareTests" />
       </list>
     </recent_temporary>
@@ -154,6 +154,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -173,30 +174,38 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="740" y="293" width="440" height="578" key="FileChooserDialogImpl/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1591657146372" />
-    <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1591657231428">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.bottom/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1591657231428" />
-    <state width="1877" height="321" key="GridCell.Tab.0.center" timestamp="1591657231428">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.center/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1591657231428" />
-    <state width="1877" height="321" key="GridCell.Tab.0.left" timestamp="1591657231428">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.left/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1591657231428" />
-    <state width="1877" height="321" key="GridCell.Tab.0.right" timestamp="1591657231428">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.right/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1591657231428" />
-    <state x="-1114" y="176" width="998" height="885" key="SettingsEditor" timestamp="1591657769499">
+    <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1591657840904">
       <screen x="-1920" y="0" width="1920" height="1160" />
     </state>
+    <state width="1877" height="321" key="GridCell.Tab.0.bottom/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1591657840904" />
+    <state width="1877" height="321" key="GridCell.Tab.0.bottom/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1591657231428" />
+    <state width="1877" height="321" key="GridCell.Tab.0.center" timestamp="1591657840904">
+      <screen x="-1920" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="321" key="GridCell.Tab.0.center/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1591657840904" />
+    <state width="1877" height="321" key="GridCell.Tab.0.center/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1591657231428" />
+    <state width="1877" height="321" key="GridCell.Tab.0.left" timestamp="1591657840904">
+      <screen x="-1920" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="321" key="GridCell.Tab.0.left/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1591657840904" />
+    <state width="1877" height="321" key="GridCell.Tab.0.left/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1591657231428" />
+    <state width="1877" height="321" key="GridCell.Tab.0.right" timestamp="1591657840904">
+      <screen x="-1920" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="321" key="GridCell.Tab.0.right/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1591657840904" />
+    <state width="1877" height="321" key="GridCell.Tab.0.right/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1591657231428" />
+    <state x="440" y="154" width="998" height="885" key="SettingsEditor" timestamp="1591684049416">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
     <state x="-1114" y="176" width="998" height="885" key="SettingsEditor/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1591657769499" />
-    <state x="440" y="154" key="SettingsEditor/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1591657148320" />
+    <state x="440" y="154" key="SettingsEditor/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1591684049416" />
     <state x="797" y="357" key="chooseDestDirectoryDialog" timestamp="1591656320001">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="797" y="357" key="chooseDestDirectoryDialog/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1591656320001" />
+    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1591684081886">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1591684081886" />
   </component>
 </project>
