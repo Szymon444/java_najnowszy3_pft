@@ -41,7 +41,7 @@ public class ContactCreationTestsTest {
   public void contactrCreationTests() {
 
     initNewContact();
-    fillNewContact();
+    fillNewContact(new ContactData("Jan", "Marian", "Kowalski", "Dominator", "Opel", "Kościuszki 220", "512-22-222", "jan@po.pl", "Będzie dobrze!"));
     submitNewContact();
   }
 
@@ -49,20 +49,20 @@ public class ContactCreationTestsTest {
     driver.findElement(By.cssSelector("input:nth-child(87)")).click();
   }
 
-  private void fillNewContact() {
+  private void fillNewContact(ContactData contactData) {
     driver.findElement(By.name("firstname")).click();
-    driver.findElement(By.name("firstname")).sendKeys("Jan");
-    driver.findElement(By.name("middlename")).sendKeys("Marian");
-    driver.findElement(By.name("lastname")).sendKeys("Kowalski");
-    driver.findElement(By.name("nickname")).sendKeys("Dominator");
-    driver.findElement(By.name("company")).sendKeys("Opel");
-    driver.findElement(By.name("address")).sendKeys("Kościuszki 220");
+    driver.findElement(By.name("firstname")).sendKeys(contactData.getName());
+    driver.findElement(By.name("middlename")).sendKeys(contactData.getSecondName());
+    driver.findElement(By.name("lastname")).sendKeys(contactData.getLastName());
+    driver.findElement(By.name("nickname")).sendKeys(contactData.getNickName());
+    driver.findElement(By.name("company")).sendKeys(contactData.getCompany());
+    driver.findElement(By.name("address")).sendKeys(contactData.getAdress());
     driver.findElement(By.name("mobile")).click();
-    driver.findElement(By.name("mobile")).sendKeys("512-22-222");
+    driver.findElement(By.name("mobile")).sendKeys(contactData.getMobile());
     driver.findElement(By.name("email")).click();
-    driver.findElement(By.name("email")).sendKeys("jan@po.pl");
+    driver.findElement(By.name("email")).sendKeys(contactData.getMail());
     driver.findElement(By.name("notes")).click();
-    driver.findElement(By.name("notes")).sendKeys("Będzie dobrze!");
+    driver.findElement(By.name("notes")).sendKeys(contactData.getNotes());
   }
 
   private void initNewContact() {
