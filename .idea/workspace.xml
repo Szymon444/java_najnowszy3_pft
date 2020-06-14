@@ -186,11 +186,11 @@
       <screen x="-1920" y="0" width="1920" height="1160" />
     </state>
     <state x="-1230" y="338" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1592125159945" />
-    <state x="-1251" y="326" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1592125582742">
-      <screen x="-1920" y="0" width="1920" height="1160" />
+    <state x="669" y="326" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1592161737977">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="-1251" y="326" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1592125582742" />
-    <state x="669" y="326" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1591942907341" />
+    <state x="669" y="326" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1592161737977" />
     <state x="740" y="292" key="FileChooserDialogImpl" timestamp="1591741344107">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
@@ -220,10 +220,11 @@
     </state>
     <state x="-1280" y="246" key="RefactorJ.IntroduceParameterObject/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1591904965181" />
     <state x="640" y="246" key="RefactorJ.IntroduceParameterObject/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1591941528706" />
-    <state x="-1137" y="517" key="ReplaceDuplicatesPrompt" timestamp="1591903724420">
-      <screen x="-1920" y="0" width="1920" height="1160" />
+    <state x="783" y="517" key="ReplaceDuplicatesPrompt" timestamp="1592161264422">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="-1137" y="517" key="ReplaceDuplicatesPrompt/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1591903724420" />
+    <state x="783" y="517" key="ReplaceDuplicatesPrompt/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1592161264422" />
     <state x="463" y="225" key="SettingsEditor" timestamp="1591901356641">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
@@ -236,10 +237,10 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="664" y="481" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1591901290027" />
-    <state x="-1230" y="342" width="540" height="482" key="extract.method.dialog" timestamp="1592124022143">
-      <screen x="-1920" y="0" width="1920" height="1160" />
+    <state x="690" y="342" width="540" height="482" key="extract.method.dialog" timestamp="1592161180587">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="-1230" y="342" width="540" height="482" key="extract.method.dialog/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1592124022143" />
-    <state x="690" y="342" width="540" height="482" key="extract.method.dialog/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1591943299158" />
+    <state x="690" y="342" width="540" height="482" key="extract.method.dialog/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1592161180587" />
   </component>
 </project>
