@@ -60,6 +60,7 @@ public class TestBase {
 
   protected void deleteSelectedGroup() {
     driver.findElement(By.cssSelector("input:nth-child(8)")).click();
+    //driver.findElement(By.name("delete")).click();
   }
 
   protected void selectGroup() {
