@@ -58,11 +58,12 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.stqa.pft.adressbook.appmanager" />
+      <recent name="ru.stqa.pft.adressbook" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Rozwój\AKTUALNE\Testy automatyczne\Repozytorium\java_najnowszy3_pft\sandbox\src\main\java\pl\stqa\pft\sandbox" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="ru.stqa.pft.adressbook" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.GroupDeletionTests">
@@ -181,10 +182,14 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="552" y="241" key="#Project_Structure/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1591741077032" />
-    <state x="-1251" y="326" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1592124105366">
+    <state x="-1230" y="338" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1592125159945">
       <screen x="-1920" y="0" width="1920" height="1160" />
     </state>
-    <state x="-1251" y="326" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1592124105366" />
+    <state x="-1230" y="338" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1592125159945" />
+    <state x="-1251" y="326" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1592125582742">
+      <screen x="-1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="-1251" y="326" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1592125582742" />
     <state x="669" y="326" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1591942907341" />
     <state x="740" y="292" key="FileChooserDialogImpl" timestamp="1591741344107">
       <screen x="0" y="0" width="1920" height="1160" />
