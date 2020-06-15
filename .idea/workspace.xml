@@ -66,7 +66,7 @@
       <recent name="ru.stqa.pft.adressbook" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GroupModificationTests">
+  <component name="RunManager" selected="JUnit.ContactDeletionTests">
     <configuration name="ContactCreationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="addressbook-web-tests.test" />
       <extension name="coverage">
@@ -97,7 +97,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContactDeletionTests.contactDeletionTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContactModificationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="addressbook-web-tests.test" />
       <extension name="coverage">
         <pattern>
@@ -106,9 +106,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.stqa.pft.adressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adressbook.tests.ContactDeletionTests" />
-      <option name="METHOD_NAME" value="contactDeletionTests" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adressbook.tests.ContactModificationTests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,10 +144,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GroupModificationTests" />
         <item itemvalue="JUnit.ContactDeletionTests" />
-        <item itemvalue="JUnit.ContactCreationTestsTest" />
-        <item itemvalue="JUnit.ContactDeletionTests.contactDeletionTests" />
+        <item itemvalue="JUnit.ContactCreationTests" />
+        <item itemvalue="JUnit.ContactModificationTests" />
+        <item itemvalue="JUnit.GroupModificationTests" />
         <item itemvalue="JUnit.GroupCreationTests" />
       </list>
     </recent_temporary>
@@ -200,26 +199,26 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="740" y="292" key="FileChooserDialogImpl/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1591741344107" />
-    <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1592230764361">
+    <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1592237668992">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1877" height="321" key="GridCell.Tab.0.bottom/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1592219234008" />
-    <state width="1877" height="321" key="GridCell.Tab.0.bottom/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1592230764361" />
-    <state width="1877" height="321" key="GridCell.Tab.0.center" timestamp="1592230764361">
+    <state width="1877" height="321" key="GridCell.Tab.0.bottom/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1592237668992" />
+    <state width="1877" height="321" key="GridCell.Tab.0.center" timestamp="1592237668992">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1877" height="321" key="GridCell.Tab.0.center/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1592219234008" />
-    <state width="1877" height="321" key="GridCell.Tab.0.center/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1592230764361" />
-    <state width="1877" height="321" key="GridCell.Tab.0.left" timestamp="1592230764360">
+    <state width="1877" height="321" key="GridCell.Tab.0.center/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1592237668992" />
+    <state width="1877" height="321" key="GridCell.Tab.0.left" timestamp="1592237668992">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1877" height="321" key="GridCell.Tab.0.left/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1592219234008" />
-    <state width="1877" height="321" key="GridCell.Tab.0.left/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1592230764360" />
-    <state width="1877" height="321" key="GridCell.Tab.0.right" timestamp="1592230764361">
+    <state width="1877" height="321" key="GridCell.Tab.0.left/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1592237668992" />
+    <state width="1877" height="321" key="GridCell.Tab.0.right" timestamp="1592237668992">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1877" height="321" key="GridCell.Tab.0.right/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1592219234008" />
-    <state width="1877" height="321" key="GridCell.Tab.0.right/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1592230764361" />
+    <state width="1877" height="321" key="GridCell.Tab.0.right/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1592237668992" />
     <state x="640" y="246" key="RefactorJ.IntroduceParameterObject" timestamp="1591941528706">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>

@@ -39,7 +39,16 @@ public class ContactHelper extends HelperBase {
     driver.switchTo().alert().accept();
   }
 
-  public void selectAllContact() {
-    click(By.id("MassCB"));
+  public void selectContact() {
+    click(By.name("selected[]"));
+  }
+
+  public void initContactModification() {
+    click(By.xpath(".//td/a//img[@alt='Edytuj']"));
+  }
+
+  public void updateContactModification() {
+
+    click(By.name("update"));
   }
 }

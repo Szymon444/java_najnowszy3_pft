@@ -3,12 +3,12 @@ package ru.stqa.pft.adressbook.appmanager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class NavigationHelper extends HelperBase{
+public class NavigationHelper extends HelperBase {
 
   WebDriver driver;
 
   public NavigationHelper(WebDriver driver) {
-    super (driver);
+    super(driver);
   }
 
   public void gotoGroupPage() {
@@ -16,6 +16,6 @@ public class NavigationHelper extends HelperBase{
   }
 
   public void goToHomePage() {
-    driver.findElement(By.linkText("strona główna")).click();
+    click(By.linkText("strona główna"));
   }
 }
