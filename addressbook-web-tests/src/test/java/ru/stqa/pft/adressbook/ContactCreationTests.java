@@ -13,7 +13,7 @@ import org.openqa.selenium.JavascriptExecutor;
 
 import java.util.*;
 
-public class ContactCreationTestsTest {
+public class ContactCreationTests {
   private WebDriver driver;
   private Map<String, Object> vars;
   JavascriptExecutor js;
