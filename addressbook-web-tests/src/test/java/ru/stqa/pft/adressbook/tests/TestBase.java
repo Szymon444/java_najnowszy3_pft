@@ -4,6 +4,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.remote.BrowserType;
 import ru.stqa.pft.adressbook.appmanager.ApplicationManager;
 
 import java.util.Map;
@@ -11,7 +12,7 @@ import java.util.Map;
 public class TestBase {
 
 
-  protected final ApplicationManager app = new ApplicationManager();
+  protected final ApplicationManager app = new ApplicationManager(BrowserType.CHROME);
   JavascriptExecutor js;
   private WebDriver driver;
   private Map<String, Object> vars;
