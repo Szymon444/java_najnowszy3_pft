@@ -29,7 +29,7 @@ public class GroupHelper extends HelperBase {
   }
 
   public void deleteSelectedGroup() {
-    click(By.cssSelector("input:nth-child(8)"));
+    click(By.name("delete"));
     //driver.findElement(By.name("delete")).click();
   }
 

@@ -12,7 +12,7 @@ import java.util.Map;
 public class TestBase {
 
 
-  protected final ApplicationManager app = new ApplicationManager(BrowserType.CHROME);
+  protected final ApplicationManager app = new ApplicationManager(BrowserType.IE);
   JavascriptExecutor js;
   private WebDriver driver;
   private Map<String, Object> vars;
