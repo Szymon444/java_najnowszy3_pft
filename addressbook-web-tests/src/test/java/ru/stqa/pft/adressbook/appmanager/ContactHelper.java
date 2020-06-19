@@ -1,7 +1,10 @@
 package ru.stqa.pft.adressbook.appmanager;
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.Select;
 import ru.stqa.pft.adressbook.model.ContactData;
 
 import static org.hamcrest.CoreMatchers.is;
@@ -17,7 +20,7 @@ public class ContactHelper extends HelperBase {
     driver.findElement(By.cssSelector("input:nth-child(87)")).click();
   }
 
-  public void fillNewContact(ContactData contactData) {
+  public void fillNewContact(ContactData contactData, boolean creation) {
     type(By.name("firstname"), contactData.getName());
     type(By.name("middlename"), contactData.getSecondName());
     type(By.name("lastname"), contactData.getLastName());
@@ -27,7 +30,14 @@ public class ContactHelper extends HelperBase {
     type(By.name("mobile"), contactData.getMobile());
     type(By.name("email"), contactData.getMail());
     type(By.name("notes"), contactData.getNotes());
+
+    if (creation) {
+      new Select(driver.findElement(By.name("new_group"))).selectByVisibleText(contactData.getGroup());
+    } else {
+      Assert.assertFalse(isElementPresent(By.name("new_group")));
+    }
   }
+
 
   public void initNewContact() {
     click(By.linkText("nowy wpis"));
