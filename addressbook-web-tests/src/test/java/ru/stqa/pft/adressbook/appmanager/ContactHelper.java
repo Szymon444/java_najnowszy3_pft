@@ -49,9 +49,9 @@ public class ContactHelper extends HelperBase {
     driver.switchTo().alert().accept();
   }
 
-  public void selectContact() {
-    click(By.name("selected[]"));
-  }
+  public void selectContact(int index) {
+    driver.findElements(By.name("selected[]")).get(index).click();
+   }
 
   public void initContactModification() {
     click(By.xpath(".//td/a//img[@alt='Edytuj']"));
