@@ -4,8 +4,12 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import ru.stqa.pft.adressbook.model.ContactData;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
@@ -51,7 +55,7 @@ public class ContactHelper extends HelperBase {
 
   public void selectContact(int index) {
     driver.findElements(By.name("selected[]")).get(index).click();
-   }
+  }
 
   public void initContactModification() {
     click(By.xpath(".//td/a//img[@alt='Edytuj']"));
@@ -75,5 +79,16 @@ public class ContactHelper extends HelperBase {
 
   public int getContactCount() {
     return driver.findElements(By.name("selected[]")).size();
+  }
+
+  public List<ContactData> getContactList() {
+    List<ContactData> contacts = new ArrayList<ContactData>();
+    List<WebElement> elements = driver.findElements(By.xpath("//tr[@name='entry']"));
+    for (WebElement element : elements) {
+      String name = element.getText();
+      ContactData contact = new ContactData(name, null, null, null, null, null, null, null, null, null);
+      contacts.add(contact);
+    }
+    return contacts;
   }
 }
