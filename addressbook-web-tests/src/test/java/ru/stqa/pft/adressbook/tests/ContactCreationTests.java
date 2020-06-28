@@ -8,6 +8,7 @@ import static org.hamcrest.core.IsNot.not;
 
 import ru.stqa.pft.adressbook.model.ContactData;
 
+import java.util.HashSet;
 import java.util.List;
 
 public class ContactCreationTests extends TestBase {
@@ -16,10 +17,22 @@ public class ContactCreationTests extends TestBase {
   public void contactrCreationTests() {
     app.getNavigationHelper().goToHomePage();
     List<ContactData> before = app.getContactHelper().getContactList();
-    app.getContactHelper().createContact(new ContactData("Bran", "Marian", "Kowalski", "Dominator", "Opel", "Kościuszki 220", "512-22-222", "jan@po.pl", "Będzie dobrze!", "test1"), true);
+    ContactData contact = new ContactData("Bran", "Marian", "Kowalski", "Dominator", "Opel", "Kościuszki 220", "512-22-222", "jan@po.pl", "Będzie dobrze!", "test1");
+    app.getContactHelper().createContact((contact), true);
     app.getNavigationHelper().goToHomePage();
     List<ContactData> after = app.getContactHelper().getContactList();
     Assert.assertEquals(after.size(), before.size() + 1);
+
+
+    int max = 0;
+    for (ContactData g: after){
+      if (g.getId() > max) {
+        max = g.getId();
+      }
+    }
+    contact.setId (max);
+    before.add(contact);
+    Assert.assertEquals(new HashSet<Object>(before), new HashSet<Object>(after));
   }
 
 }
