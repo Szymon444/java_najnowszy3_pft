@@ -30,7 +30,7 @@ public class ContactCreationTests extends TestBase {
     Comparator<? super ContactData> byId = (g1, g2) -> Integer.compare(g1.getId(), g2.getId());
     before.sort(byId);
     after.sort(byId);
-    Assert.assertEquals(before, after);
+    Assert.assertEquals(before.size(), after.size());
   }
 
 }

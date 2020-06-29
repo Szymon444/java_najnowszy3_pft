@@ -66,7 +66,7 @@
       <recent name="D:\Rozwój\AKTUALNE\Testy automatyczne\Repozytorium\java_najnowszy3_pft\sandbox\src\main\java\pl\stqa\pft\sandbox" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ContactCreationTests">
+  <component name="RunManager" selected="JUnit.ru.stqa.pft.adressbook.tests in addressbook-web-tests.test">
     <configuration name="ContactCreationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="addressbook-web-tests.test" />
       <extension name="coverage">
@@ -127,7 +127,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupModificationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ru.stqa.pft.adressbook.tests in addressbook-web-tests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="addressbook-web-tests.test" />
       <extension name="coverage">
         <pattern>
@@ -136,19 +136,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.stqa.pft.adressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adressbook.tests.GroupModificationTests" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.ContactDeletionTests" />
+      <item itemvalue="JUnit.ContactCreationTests" />
+      <item itemvalue="JUnit.ContactModificationTests" />
+      <item itemvalue="JUnit.GroupCreationTests" />
+      <item itemvalue="JUnit.ru.stqa.pft.adressbook.tests in addressbook-web-tests.test" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ru.stqa.pft.adressbook.tests in addressbook-web-tests.test" />
         <item itemvalue="JUnit.ContactCreationTests" />
         <item itemvalue="JUnit.ContactModificationTests" />
         <item itemvalue="JUnit.ContactDeletionTests" />
         <item itemvalue="JUnit.GroupCreationTests" />
-        <item itemvalue="JUnit.GroupModificationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -210,26 +216,26 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="740" y="292" key="FileChooserDialogImpl/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1592719702562" />
-    <state width="1860" height="456" key="GridCell.Tab.0.bottom" timestamp="1593336407564">
+    <state width="1877" height="456" key="GridCell.Tab.0.bottom" timestamp="1593411873468">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1877" height="460" key="GridCell.Tab.0.bottom/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1593185137338" />
-    <state width="1860" height="456" key="GridCell.Tab.0.bottom/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1593336407564" />
-    <state width="1860" height="456" key="GridCell.Tab.0.center" timestamp="1593336407564">
+    <state width="1877" height="456" key="GridCell.Tab.0.bottom/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1593411873468" />
+    <state width="1877" height="456" key="GridCell.Tab.0.center" timestamp="1593411873468">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1877" height="460" key="GridCell.Tab.0.center/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1593185137338" />
-    <state width="1860" height="456" key="GridCell.Tab.0.center/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1593336407564" />
-    <state width="1860" height="456" key="GridCell.Tab.0.left" timestamp="1593336407564">
+    <state width="1877" height="456" key="GridCell.Tab.0.center/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1593411873468" />
+    <state width="1877" height="456" key="GridCell.Tab.0.left" timestamp="1593411873468">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1877" height="460" key="GridCell.Tab.0.left/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1593185137338" />
-    <state width="1860" height="456" key="GridCell.Tab.0.left/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1593336407564" />
-    <state width="1860" height="456" key="GridCell.Tab.0.right" timestamp="1593336407564">
+    <state width="1877" height="456" key="GridCell.Tab.0.left/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1593411873468" />
+    <state width="1877" height="456" key="GridCell.Tab.0.right" timestamp="1593411873468">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1877" height="460" key="GridCell.Tab.0.right/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1593185137338" />
-    <state width="1860" height="456" key="GridCell.Tab.0.right/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1593336407564" />
+    <state width="1877" height="456" key="GridCell.Tab.0.right/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1593411873468" />
     <state width="1877" height="396" key="GridCell.Tab.1.bottom" timestamp="1593244139322">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
