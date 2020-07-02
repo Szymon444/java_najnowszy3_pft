@@ -40,8 +40,14 @@ public class GroupHelper extends HelperBase {
   }
 
   public void selectGroup(int index) {
+
     driver.findElements(By.name("selected[]")).get(index).click();
     }
+
+  public void selectGroupById(int id) {
+
+    driver.findElement(By.cssSelector("input[value='" + id + "']")).click();
+  }
 
   public void initGroupModification() {
     click(By.name("edit"));
@@ -74,6 +80,11 @@ public class GroupHelper extends HelperBase {
     returnToGroupPage();
   }
 
+  public void delete(GroupData group) {
+    selectGroupById(group.getId());
+    deleteSelectedGroup();
+    returnToGroupPage();
+  }
 
   public boolean isThereAGroup() {
     return isElementPresent(By.name("selected[]"));
@@ -108,6 +119,7 @@ public class GroupHelper extends HelperBase {
 
     return groups;
   }
+
 
 
 }
