@@ -3,35 +3,74 @@ package ru.stqa.pft.adressbook.model;
 import java.util.Objects;
 
 public class ContactData {
-  private int id;
-  private final String name;
-  private final String secondName;
-  private final String lastName;
-  private final String nickName;
-  private final String company;
-  private final String adress;
-  private final String mobile;
-  private final String mail;
-  private final String notes;
-  private final String group;
+  private int id = Integer.MAX_VALUE;
+  private String name;
+  private String secondName;
+  private String lastName;
+  private String nickName;
+  private String company;
+  private String adress;
+  private String mobile;
+  private String mail;
+  private String notes;
+  private String group;
 
-  public ContactData(int id, String name, String secondName, String lastName, String nickName, String company, String adress, String mobile, String mail, String notes, String group) {
+
+  public ContactData withId(int id) {
     this.id = id;
+    return this;
+  }
+
+  public ContactData withName(String name) {
     this.name = name;
-    this.secondName = secondName;
-    this.lastName = lastName;
-    this.nickName = nickName;
-    this.company = company;
-    this.adress = adress;
-    this.mobile = mobile;
-    this.mail = mail;
-    this.notes = notes;
-    this.group = group;
+    return this;
   }
 
-  public void setId(int id) {
-    this.id = id;
+  public ContactData withSecondName(String secondName) {
+    this.secondName = secondName;
+    return this;
   }
+
+  public ContactData withLastName(String lastName) {
+    this.lastName = lastName;
+    return this;
+  }
+
+  public ContactData withNickName(String nickName) {
+    this.nickName = nickName;
+    return this;
+  }
+
+  public ContactData withCompany(String company) {
+    this.company = company;
+    return this;
+  }
+
+  public ContactData withAdress(String adress) {
+    this.adress = adress;
+    return this;
+  }
+
+  public ContactData withMobile(String mobile) {
+    this.mobile = mobile;
+    return this;
+  }
+
+  public ContactData withMail(String mail) {
+    this.mail = mail;
+    return this;
+  }
+
+  public ContactData withNotes(String notes) {
+    this.notes = notes;
+    return this;
+  }
+
+  public ContactData withGroup(String group) {
+    this.group = group;
+    return this;
+  }
+
 
   @Override
   public boolean equals(Object o) {
@@ -46,19 +85,6 @@ public class ContactData {
     return Objects.hash(name);
   }
 
-  public ContactData(String name, String secondName, String lastName, String nickName, String company, String adress, String mobile, String mail, String notes, String group) {
-    this.id = Integer.MAX_VALUE;
-    this.name = name;
-    this.secondName = secondName;
-    this.lastName = lastName;
-    this.nickName = nickName;
-    this.company = company;
-    this.adress = adress;
-    this.mobile = mobile;
-    this.mail = mail;
-    this.notes = notes;
-    this.group = group;
-  }
 
   public int getId() {
     return id;
@@ -100,7 +126,9 @@ public class ContactData {
     return notes;
   }
 
-  public String getGroup() {return group; }
+  public String getGroup() {
+    return group;
+  }
 
   @Override
   public String toString() {

@@ -24,7 +24,7 @@ public class ContactHelper extends HelperBase {
     driver.findElement(By.cssSelector("input:nth-child(87)")).click();
   }
 
-  public void fillNewContact(ContactData contactData, boolean creation) {
+  public void fillNewContact(ContactData contactData/*, boolean creation*/) {
     type(By.name("firstname"), contactData.getName());
     type(By.name("middlename"), contactData.getSecondName());
     type(By.name("lastname"), contactData.getLastName());
@@ -35,11 +35,11 @@ public class ContactHelper extends HelperBase {
     type(By.name("email"), contactData.getMail());
     type(By.name("notes"), contactData.getNotes());
 
-    if (creation) {
+   /* if (creation) {
       new Select(driver.findElement(By.name("new_group"))).selectByVisibleText(contactData.getGroup());
     } else {
       Assert.assertFalse(isElementPresent(By.name("new_group")));
-    }
+    }*/
   }
 
 
@@ -66,9 +66,9 @@ public class ContactHelper extends HelperBase {
     click(By.name("update"));
   }
 
-  public void createContact(ContactData contact, boolean b) {
+  public void createContact(ContactData contact/*, boolean b*/) {
     initNewContact();
-    fillNewContact(contact, true);
+    fillNewContact(contact/*, true*/);
     submitNewContact();
 
   }
@@ -87,7 +87,7 @@ public class ContactHelper extends HelperBase {
     for (WebElement element : elements) {
       String name = element.getText();
       int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
-      ContactData contact = new ContactData(id,name, null, null, null, null, null, null, null, null, null);
+      ContactData contact = new ContactData().withId(id).withName(name);
       contacts.add(contact);
     }
     return contacts;
